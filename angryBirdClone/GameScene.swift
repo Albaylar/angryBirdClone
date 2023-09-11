@@ -238,8 +238,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 birdPysicsBody.angularVelocity = 0
                 bird.zPosition = 1
                 bird.position = originalPosition!
-                
-                
                 score = 0
                 scoreLabel.text = String(score)
                 gameStarted = false
